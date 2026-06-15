@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<title>Moved to Koala</title>
+<script>
+  // /euclidean-go/<anything>  ->  /koala/<anything>
+  var p = location.pathname.replace(/^\/euclidean-go/, "/koala");
+  if (p === location.pathname) p = "/koala/";   // safety
+  location.replace(location.origin + p + location.search + location.hash);
+</script>
+<meta http-equiv="refresh" content="2;url=https://vonduffen.github.io/koala/">
+<style>body{font-family:-apple-system,system-ui,sans-serif;background:#0b0d13;color:#e8ebf2;
+  display:grid;place-items:center;height:100vh;margin:0;text-align:center}a{color:#00ffc2}</style>
+</head><body><div>
+<h1>🐨 This project is now <b>Koala</b></h1>
+<p>Taking you there… or <a href="https://vonduffen.github.io/koala/">open Koala &rarr;</a></p>
+</div></body></html>
